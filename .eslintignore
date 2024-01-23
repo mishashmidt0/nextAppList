@@ -2,3 +2,17 @@ next.config.js
 .next
 node_modules
 .idea
+tsconfig.json
+tsconfig.tsbuildinfo
+yarn.lock
+components.json
+next-env.d.ts
+next.config.mjs
+tailwind.config.js
+tailwind.config.ts
+public
+postcss.config.js
+package.json
+package-lock.json
+README.md
+.eslintrc.json

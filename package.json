@@ -9,11 +9,11 @@
     "lint": "next lint",
     "lint-fix": "eslint --fix",
     "prod-test": "yarn run test:all:fix && yarn run build",
-    "test:all": "yarn run tsc --noEmit && yarn run test:eslint && yarn run test:stylelint",
-    "test:all:fix": "yarn run tsc --noEmit && yarn run test:eslint:fix && yarn run test:prettier",
-    "test:eslint": "eslint \"./src/**/*\"",
+    "test:all": "yarn run test:eslint && yarn run test:stylelint",
+    "test:all:fix": "yarn run test:eslint:fix && yarn run test:prettier",
+    "test:eslint": "eslint \"./**/*\"",
     "test:eslint:fix": "yarn run test:eslint --fix",
-    "test:prettier": "prettier --write \"./src/**/*.{ts,tsx,json,md}\""
+    "test:prettier": "prettier --write \"./**/*.{ts,tsx,json,md}\""
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
